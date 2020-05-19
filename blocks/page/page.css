@@ -1,0 +1,11 @@
+* {
+    outline-width: 1px;
+    outline-style: solid;
+    outline-color: green;
+} 
+
+.page {
+    background-color: #2A2C2F;
+    font-family: 'Inter', Arial, sans-serif;
+    padding-top: 28px;
+}
