@@ -2,3 +2,10 @@
     display: flex;
     flex-direction: row;
 }
+
+@media all and (max-width: 730px) {
+    .footer__links {
+        flex-direction: column;
+        margin-bottom: 48px;
+    }
+  }
