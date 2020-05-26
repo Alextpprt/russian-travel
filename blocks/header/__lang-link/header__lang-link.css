@@ -1,13 +1,11 @@
 .header__lang-link {
+    font-family: Inter;
+    font-weight: 400;
     color: #fff;
-    font-size: 24px;
-    line-height: 28px;
+    font-size: 1.5rem;
+    line-height: 0.75;
     text-decoration: none;
     margin-right: 18px;
-}
-
-.header__lang-link:first-of-type {
-    text-decoration: underline;
 }
 
 .header__lang-link:last-of-type {
@@ -17,3 +15,10 @@
 .header__lang-link:hover {
     opacity: 0.8;
 }
+
+@media all and (max-width: 380px) {
+    .header__lang-link {
+        font-size: 1.125rem;
+        line-height: 0.6;
+    }
+  }
