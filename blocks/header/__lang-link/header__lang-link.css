@@ -3,7 +3,7 @@
     font-weight: 400;
     color: #fff;
     font-size: 1.5rem;
-    line-height: 0.75;
+    line-height: 117%;
     text-decoration: none;
     margin-right: 18px;
 }
@@ -19,6 +19,6 @@
 @media all and (max-width: 380px) {
     .header__lang-link {
         font-size: 1.125rem;
-        line-height: 0.6;
+        line-height: 133%;
     }
   }
