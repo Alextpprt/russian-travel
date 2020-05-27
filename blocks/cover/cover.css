@@ -4,11 +4,30 @@
 
 .cover {
     max-width: 1184px;
-    min-height: 740px;
     margin: 92px auto;
-    display: flex;
-    position: relative;
+    padding: 0 48px;
 }
 
+@media all and (max-width: 1024px) {
+    .cover {
+        padding: 0;
+    }
+}
 
+@media all and (max-width: 768px) {
+    .cover {
+        margin: 88px auto;
+    }
+}
 
+@media all and (max-width: 730px) {
+    .cover  {
+        margin: 64px auto;
+    }
+  }
+
+  @media all and (max-width: 730px) {
+    .cover  {
+   
+    }
+  }
