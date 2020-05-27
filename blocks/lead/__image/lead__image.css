@@ -1,5 +1,5 @@
 .lead__image {
+    background-size: cover;
+    max-width: 100%;
     width: 100%;
-    object-fit: fill;
-    align-self: center;
 }
