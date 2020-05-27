@@ -6,7 +6,25 @@
 .intro {
     display: flex;
     flex-direction: column;
-    max-width: 1280px;
+    max-width: 984px;
     margin: 0 auto;
     padding: 0 148px;
+}
+
+@media all and (max-width: 1024px) {
+    .intro {
+        padding: 0 48px;
+    }
+}
+
+@media all and (max-width: 768px) {
+    .intro {
+        padding: 0 24px;
+    }
+}
+
+@media all and (max-width: 620px) {
+    .intro {
+        padding: 0 16px;
+    }
 }
