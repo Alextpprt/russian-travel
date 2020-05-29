@@ -9,8 +9,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 21%;
-    padding-bottom: 21%;
+    padding-top: 20.82%;
+    padding-bottom: 20.82%;
 }
 
 .cover__overlay::before {
@@ -27,4 +27,25 @@
 
 .cover__overlay:hover::before {
     opacity: 0.8;
+}
+
+@media all and (max-width: 1024px) {
+    .cover__overlay {
+        padding-top: 19.19%;
+        padding-bottom: 19.19%;
+    }
+}
+
+@media all and (max-width: 768px) {
+    .cover__overlay {
+        padding-top: 15.17%;
+        padding-bottom: 15.17%;
+    }
+}
+
+@media all and (max-width: 320px) {
+    .cover__overlay {
+        padding-top: 11.095%;
+        padding-bottom: 11.095%;
+    }
 }
