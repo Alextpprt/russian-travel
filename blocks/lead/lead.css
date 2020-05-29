@@ -13,14 +13,13 @@
 @media all and (max-width: 1024px) {
     .lead {
         margin: 48px auto 92px auto;
-        padding: 48px;
+        max-width: 928px;
     }
 }
 
 @media all and (max-width: 768px) {
     .lead {
         margin: 48px auto 88px auto;
-        padding: 0;
     }
 }
 
